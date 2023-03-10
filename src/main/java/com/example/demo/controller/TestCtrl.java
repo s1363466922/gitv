@@ -15,4 +15,9 @@ public class TestCtrl {
     public String Rtvodchndata() {
         return "Hello World!";
     }
+    @ResponseBody
+    @RequestMapping("xiaoyi")
+    public String Rtvodchndata() {
+        return "Hello XiaoYi!";
+    }
 }
